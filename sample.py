@@ -15,7 +15,12 @@ def intersection(a,b):
 	'''
 	This function returns the intersection of a and b - A list of common elements between a and b
 	'''
-	pass
+	intersect = []
+	for list1 in a:
+		for list2 in b:
+			if(list1 == list2):
+				intersect.append(list1)
+	return intersect
 
 def generate(steps):
 	pass
@@ -36,7 +41,5 @@ def sort(l):
 	'''
 	This function returns a sorted version of l
 	'''
-	name = ['john', 'kemi', 'jake', 'ada', 'chidi']
-		return name.sort()
 	pass
-
+	
