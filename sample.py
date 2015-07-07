@@ -36,4 +36,7 @@ def sort(l):
 	'''
 	This function returns a sorted version of l
 	'''
+	name = ['john', 'kemi', 'jake', 'ada', 'chidi']
+		return name.sort()
 	pass
+
